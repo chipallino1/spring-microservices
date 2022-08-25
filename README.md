@@ -10,5 +10,5 @@ Sprint Boot microservices example
    sudo apt-get install postgresql-client
    wget https://dl.google.com/cloudsql/cloud_sql_proxy.linux.amd64 -O cloud_sql_proxy
    chmod +x cloud_sql_proxy
-5. Launch proxy: <sub> ./cloud_sql_proxy -instances=CONNECTION_STRING_FROM_CLOUD_SQL=tcp:5432 </sub>
-6. Connect to proxy: <sub> psql "host=127.0.0.1 port=5432 sslmode=disable dbname=DB_NAME user=postgres" </sub>
+5. Launch proxy: ``` ./cloud_sql_proxy -instances=CONNECTION_STRING_FROM_CLOUD_SQL=tcp:5432 ```
+6. Connect to proxy: ``` psql "host=127.0.0.1 port=5432 sslmode=disable dbname=DB_NAME user=postgres" ```
