@@ -1,7 +1,7 @@
 # spring-microservices
 Sprint Boot microservices example
 
-1. First we need to set up DB in cloud and connect to it through Cloud SQL Proxy.
+1. First we need to set up DB in cloud and connect to it through Cloud SQL Proxy (https://cloud.google.com/sql/docs/postgres/connect-instance-auth-proxy#linux-64-bit).
 2. Go to Cloud SQL to set up instance and then create db.
 3. Go to Compute instances and specify instance (add access to cloud sql for service account and allow http-traffic, also enable Cloud SQL Admin API)
 4. Connect to compute instance. 
