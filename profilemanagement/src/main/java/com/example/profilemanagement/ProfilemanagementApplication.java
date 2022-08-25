@@ -9,9 +9,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @EnableEurekaClient
 @EnableDiscoveryClient
 public class ProfilemanagementApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(ProfilemanagementApplication.class, args);
 	}
-
 }
